@@ -1,0 +1,105 @@
+- var docName = "Catalog"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./styles/style.css")
+        title= docName
+
+    body         
+        include modules/header
+        .container
+            .main-menu 
+                ul 
+                    li.main-menu__nav-item  
+                        a(href="catalog.html") Каталог 
+                    li.main-menu__nav-item  
+                        a(href="delivery.html")  Доставка и заказ
+                    li.main-menu__nav-item    
+                        a(href="index.html")  Главная
+                    li.main-menu__nav-item    
+                        a(href="")  Уход за мебелью
+                    li.main-menu__nav-item    
+                        a(href="")  Вакансии
+        .container 
+            .button 
+                img(src="./img/prod_catalog_button.png", alt="") 
+                li Выберите категорию
+        .container 
+            .categories
+                .categories_block 
+                    img(src="./img/prod_categories_one.png", alt="")
+                    p Кухонная мебель
+                .categories_block 
+                    img(src="./img/prod_categories_two.png", alt="")
+                    p Офисная мебель
+                .categories_block 
+                    img(src="./img/prod_categories_three.png", alt="")
+                    p Спальня
+                .categories_block 
+                    img(src="./img/prod_categories_four.png", alt="")
+                    p Ванная комната
+        .container 
+            .sale 
+                p.sale_text Распродажа
+                .sale_block 
+                    .sale_block_elem 
+                        img(src="./img/prod_sale1.png", alt="")
+                        p КУХНЯ СЕРРА
+                        li 55 200 ₽ 
+                        span 64 900 ₽
+                        .button_sale 
+                            p В корзину
+                    .sale_block_elem 
+                        img(src="./img/prod_sale2.png", alt="")
+                        p КУХНЯ ФОРЕСТО
+                        li 86 400 ₽     
+                        span 102 900 ₽
+                        .button_sale 
+                            p В корзину
+                    .sale_block_elem 
+                        img(src="./img/prod_sale3.png", alt="")
+                        p Офисная мебель СМАРТ
+                        li 15 000 ₽ 
+                        span 30 000 ₽
+                        .button_sale 
+                            p В корзину
+                    .sale_block_elem 
+                        img(src="./img/prod_sale4.png", alt="")
+                        p Офисная мебель Comfort
+                        li 15 000 ₽ 
+                        span 30 000 ₽
+                        .button_sale 
+                            p В корзину
+                    .sale_block_elem 
+                        img(src="./img/prod_sale5.png", alt="")
+                        p Спальня Гарда BMS
+                        li 45 320 ₽      
+                        span 89 180 ₽ 
+                        .button_sale 
+                            p В корзину
+                    .sale_block_elem 
+                        img(src="./img/prod_sale6.png", alt="")
+                        p Спальня Бася Сура 1 BMS
+                        li 51 896 ₽      
+                        span 56 170 ₽
+                        .button_sale 
+                            p В корзину
+                    .sale_block_elem 
+                        img(src="./img/prod_sale7.png", alt="")
+                        p  Ванная Несси 4 BMS
+                        li 35 390 ₽      
+                        span 42 970 ₽ 
+                        .button_sale 
+                            p В корзину
+                    .sale_block_elem 
+                        img(src="./img/prod_sale8.png", alt="")
+                        p  Акватон Бекка Pro 70
+                        li 18 500 ₽ 
+                        span 22 170 ₽
+                        .button_sale 
+                            p В корзину
+        include modules/footer 

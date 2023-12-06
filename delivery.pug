@@ -1,0 +1,78 @@
+- var docName = "Delivery"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./styles/style.css")
+        title= docName
+
+    body 
+        include modules/header
+        .container
+            .main-menu 
+                ul 
+                    li.main-menu__nav-item  
+                        a(href="catalog.html") Каталог 
+                    li.main-menu__nav-item  
+                        a(href="delivery.html")  Доставка и заказ
+                    li.main-menu__nav-item    
+                        a(href="index.html")  Главная
+                    li.main-menu__nav-item    
+                        a(href="")  Уход за мебелью
+                    li.main-menu__nav-item    
+                        a(href="")  Вакансии
+        .container        
+            section.services
+                .services_block
+                    .services__block_elem 
+                        p Бесплатная и быстрая доставка
+                    .services__block_elem 
+                        p Бесплатный подъем и сборка мебели
+                    .services__block_elem 
+                        p Бесплатный вывоз мусора
+                    .services__block_elem  
+                        p Бесплатное обслуживание по гарантии
+        .container
+            section.terms-of-delivery
+                h1 Условия доставки
+                ul.terms-of-delivery_text
+                    li.terms-of-delivery_text Доставка курьером по Москве и Московской области 
+                    li.terms-of-delivery_text Стоимость доставки по Москве в пределах МКАД - 300 руб.
+                    li.terms-of-delivery_text При заказе на сумму от 15000 руб. - доставка осуществляется бесплатно в пределах МКАД.
+                    li.terms-of-delivery_text За МКАД до 25 км - 600 руб. 
+                    li.terms-of-delivery_text Доставка осуществляется Пн. - Сб.: с 10:00 до 20:00 
+                    li.terms-of-delivery_text Заказы оформленные до 17:00 и оплаченные вперед могут быть доставлены день в день.
+        .container 
+            section.order
+                h1 Ваш заказ и доставка
+                .order_date
+                    h2 Дата:
+                    input(type="date") 
+                .order_adress
+                    h2 Адрес:
+                    input(type="text") 
+                .order_FIO
+                    h2 ФИО: 
+                    input(type="text")
+                .order_number
+                    h2 Телефон:
+                    input(type="text")
+                .order_product
+                    h2 Товары:
+                    input(type="text")
+                .order_pay   
+                    .order_pay_one 
+                        h2 Способ оплаты:
+                        img(src="../img/prod_pay_check.png", alt="")
+                        p Наличные
+                    .order_pay_two     
+                        img(src="../img/prod_pay_check.png", alt="")
+                        p Карта
+                .order_send 
+                    button  Отправить
+                
+
+        include modules/footer     

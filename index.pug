@@ -1,0 +1,117 @@
+- var docName = "Furniture"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./styles/style.css")
+        title= docName
+    body         
+        include modules/header
+        .container
+            .main-menu 
+                ul 
+                    li.main-menu__nav-item  
+                        a(href="catalog.html") Каталог 
+                    li.main-menu__nav-item  
+                        a(href="delivery.html")  Доставка и заказ
+                    li.main-menu__nav-item    
+                        a(href="index.html")  Главная
+                    li.main-menu__nav-item    
+                        a(href="")  Уход за мебелью
+                    li.main-menu__nav-item    
+                        a(href="")  Вакансии
+        .container        
+            section.services
+                .services_block
+                    .services__block_elem 
+                        p Бесплатная и быстрая доставка
+                    .services__block_elem 
+                        p Бесплатный подъем и сборка мебели
+                    .services__block_elem 
+                        p Бесплатный вывоз мусора
+                    .services__block_elem  
+                        p Бесплатное обслуживание по гарантии
+        .container
+            .custom-made-furniture
+                .custom-made-furniture_text
+                    p.custom-made-furniture_one ИНДИВИДУАЛЬНАЯ МЕБЕЛЬ
+                    p.custom-made-furniture_two ПО ВАШИМ РАЗМЕРАМ
+                    p.custom-made-furniture_three С БЕСПЛАТНЫМ ДИЗАЙН-ПРОЕКТОМ
+                .custom-made-furniture__square 
+                    p 10%
+                    span Предоплата
+                .custom-made-furniture__advantages
+                    p Бесплатная доставка по Москве и МО
+                    p Гарантия 2 года на мебель
+                    p Бесплатный выезд дизайнера-замерщика
+        .container
+            .partners
+                p.partners_text НАШИ ПАРТНЁРЫ            
+                    .partners_blocks
+                        .partners_block
+                            p Склады:
+                            ul 
+                                li.partners_block_one Каскад
+                                li.partners_block_one Colpa
+                                li.partners_block_one Logicom
+                        .partners_block
+                            p Партнёры:
+                            ul 
+                                li.partners_block_one Hoff
+                                li.partners_block_one Леруа Мерлен
+                                li.partners_block_one Лазурит
+        .container 
+            .reference-information
+                p.reference-information_text Справочная информация
+                p Справочная информация на сайте помогает посетителю быстрее найти ответы  на вопросы и сориентироваться на сайте.
+                p Весь перечень предлагаемых товаров можно найти на странице "Каталог".
+        .container 
+            section.furniture-care
+                p.furniture-care_text Уход за мебелью
+                .furniture-care_block 
+                    .furniture-care_block_elem 
+                        p Удалять пыль с поверхности мебели следует сухой мягкой тряпочкой
+                    .furniture-care_block_elem 
+                        p Периодически протирайте поверхность специальными антистатическими средствами
+                    .furniture-care_block_elem 
+                        p Грязь удаляйте мыльным раствором с обязательным последующим вытиранием насухо
+                    .furniture-care_block_elem 
+                        span.furniture-care_block_elem--orange  Ни в коем случае нельзя 
+                        p пользоваться агрессивными чистящими средствами
+        .container 
+            .vacancies
+                p.vacancies_text Вакансии
+                .vacancies_block 
+                    .vacancies_block_elem
+                        p Менеджер по продажам
+                        img(src="/img/prod_vacancies_one.png", alt="")
+                        ul 
+                            li Возможность стать частью команды, стремящейся к лидерству в отрасли.
+                            li Уровень дохода выше, чем в других мебельных компаниях 
+                            li Стабильный поток целевых клиентов
+                            li График работы 4/2 при 8-ми часовом рабочем дне 
+                            li  Возможности для карьерного и профессионального роста.
+                    .vacancies_block_elem
+                        p Грузчик
+                        img(src="./img/prod_vacancies_two.png", alt="")
+                        ul 
+                            li Вы сами выбираетe сeбe зaказ
+                            li Работать можно в паре со своим напарником.
+                            li Минимальная оплата выезда 1200₽ (за 4 часа).
+                            li Свободный график, работа в удобное для вас время.
+                            li Оплата сразу после выполненной работы.
+        .container 
+            .contact
+                p.contact_text Контакты
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d562.0297882418406!2d38.95845323192482!3d55.704300592072954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414afd43a09aba4b%3A0xce5cdda4d5b26a6e!2z0J_Rg9Cz0L7QstC60LA!5e0!3m2!1sru!2sru!4v1701697289391!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                .contact_block 
+                        p.contact_block_text Адрес:
+                        p  Московская область,Орехово-Зуевский городской округ, г.Ликино-Дулёво,улица Ленина, 3
+                        p.contact_block_text Телефон:
+                        p +7 (961) 217-93-76
+                        p +7 (989) 277-94-30
+        include modules/footer 
+
