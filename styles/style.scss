@@ -1,14 +1,25 @@
 body {
     font-size: 14px;
     font-family: Inter;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
+    
 }
+.container {
+   box-sizing: border-box;
+    width: 1280px;
 
+}
 .header {
     background-color: #F1F1F1;
     height: 77px;
+
+    .burger-menu {
+        display: none;
+        width: 28px;
+        height: 28px;
+        float: right;
+    }
 
     .header-wrapper {
         margin: 0 auto;
@@ -32,13 +43,6 @@ body {
         .header__logo_img {
             margin-left: 159px;
             margin-right: 40px;
-        }
-
-        .header_line {
-            height: 61px;
-            padding-top: 7px;
-            padding-left: 20px;
-            padding-right: 0px;
         }
 
         .header_list {
@@ -65,7 +69,7 @@ body {
 
         .header__contact {
             display: flex;
-            margin-left: 66px;
+           
         }
     }
 }
@@ -77,13 +81,16 @@ body {
     align-items: center;
 
     .main-menu {
-        border-bottom: 1px solid #E12E2E;
         margin: 0 auto;
         margin-top: 27px;
+        margin-left: 10px;
+
     }
 
     .main-menu ul {
         display: flex;
+        margin-left: 200px;
+        border-bottom: 1px solid #E12E2E;
     }
 
     .main-menu__nav-item a {
@@ -95,6 +102,7 @@ body {
     .main-menu__nav-item {
         list-style-type: none;
         padding-right: 70px;
+
     }
 }
 
@@ -108,7 +116,7 @@ body {
         margin-right: 83px;
         font-size: 13px;
         display: flex;
-        margin-left: 230px;
+        margin-left: 170px;
 
         .services__block_elem {
             text-align: center;
@@ -129,26 +137,47 @@ body {
 }
 
 .container {
+
     .custom-made-furniture {
-        margin-top: 101px;
-        margin-left: 160px;
+
+        margin: 0 auto;
         font-size: 24px;
         display: flex;
+        margin-top: 101px;
+        margin-bottom: 114px;
 
         .custom-made-furniture_one {
             color: #F05310;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
             font-weight: 700;
+            line-height: normal;
             margin-left: 10px;
+            margin-bottom: 5px;
         }
 
         p.custom-made-furniture_two {
+            margin-left: 15px;
+            margin-bottom: 5px;
+            color: #000;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
             font-weight: 700;
-            margin-left: 20px;
+            line-height: normal;
         }
 
         p.custom-made-furniture_three {
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: #000;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
             font-weight: 700;
-            text-shadow: 1px 1px 4px rgb(71, 71, 71);
+            line-height: normal;
         }
 
         .custom-made-furniture__square {
@@ -159,15 +188,18 @@ body {
             border-radius: 80px;
             margin-left: 10px;
             text-align: center;
+            margin-top: 0px;
 
             p {
                 font-size: 24px;
                 margin: 0;
                 padding-top: 25px;
+                font-weight: 700;
             }
 
             span {
                 font-size: 15px;
+                font-weight: 700;
                 padding-top: 5px;
             }
         }
@@ -232,11 +264,11 @@ body {
             margin-left: 400px;
         }
 
-        p {
+        .reference-information p {
             font-size: 20px;
             font-weight: 700;
             text-align: left;
-            margin-left: 196px;
+            margin-left: 200px;
             width: 983px;
         }
     }
@@ -257,7 +289,7 @@ body {
 
         .furniture-care_block {
             display: flex;
-            margin-left: 86px;
+            margin-left: 50px;
 
             .furniture-care_block_elem {
                 width: 243px;
@@ -296,6 +328,7 @@ body {
 
         .vacancies_block {
             display: flex;
+            margin-left: 60px;
 
         }
 
@@ -345,6 +378,7 @@ body {
 
         iframe {
             float: left;
+            margin-left: 70px;
         }
 
         .contact_block {
@@ -375,7 +409,7 @@ body {
 .footer {
     background-color: #F1F1F1;
     height: 218px;
-    margin-top: 81px;
+    margin-top: 86px;
 
     .footer-wrapper {
         margin: 0 auto;
@@ -729,7 +763,8 @@ body {
             }
         }
     }
-    .order_send button{
+
+    .order_send button {
         width: 237px;
         height: 57px;
         border-radius: 10px;

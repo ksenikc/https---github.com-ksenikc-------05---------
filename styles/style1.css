@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/*ГЛАВНАЯ*/
+@media (max-width: 1024px) {
+  .container {
+    width: 1000px;
+  }
+  .container .main-menu {
+    margin-top: 33px;
+    margin-left: 73px;
+  }
+  .container .main-menu ul {
+    display: flex;
+    margin-left: 0;
+  }
+  .container .main-menu__nav-item {
+    list-style-type: none;
+    padding-right: 90px;
+  }
+  .header {
+    width: 1024px;
+  }
+  .header .header .header-wrapper .header__calls {
+    display: flex;
+    padding-left: 54px;
+    padding-right: 70px;
+  }
+  .header .header .header-wrapper .header__calls .header__logo {
+    width: 74.12px;
+    height: 68px;
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+  .header .header .header-wrapper .header__calls .header .header-wrapper .header__logo_img {
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+  .header .header .header-wrapper .header__calls .header__calls {
+    margin-left: 100px;
+    padding-right: 0;
+  }
+  .header .header_list {
+    margin-left: 0;
+  }
+  .header .header__location_img {
+    margin-left: 0px;
+    padding: 0;
+  }
+  .header .header .header-wrapper .header__contact {
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+  .header ul.header_contact_ul {
+    margin: 0;
+    padding: 0;
+  }
+  .container .services .services_block {
+    margin-left: 80px;
+  }
+}
+.container .custom-made-furniture {
+  margin-top: 59px;
+  margin-left: 30px;
+  font-size: 24px;
+  display: flex;
+}
+.container .custom-made-furniture .custom-made-furniture_one {
+  color: #F05310;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.container .custom-made-furniture p.custom-made-furniture_two {
+  font-weight: 700;
+  margin-left: 20px;
+}
+.container .custom-made-furniture p.custom-made-furniture_three {
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgb(71, 71, 71);
+}
+.container .custom-made-furniture .custom-made-furniture__square {
+  background-color: #F05310;
+  color: #fff;
+  width: 110px;
+  height: 110px;
+  border-radius: 80px;
+  margin-left: 10px;
+  text-align: center;
+}
+.container .custom-made-furniture .custom-made-furniture__square p {
+  font-size: 24px;
+  margin: 0;
+  padding-top: 25px;
+}
+.container .custom-made-furniture .custom-made-furniture__square span {
+  font-size: 15px;
+  padding-top: 5px;
+}
+.container .custom-made-furniture .custom-made-furniture__advantages {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 82px;
+  margin-top: 10px;
+}
+
+.container .reference-information p {
+  margin-left: 25px;
+}
+.container .reference-information p.reference-information_text {
+  margin-left: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  align-items: center;
+}
+.container .furniture-care p.furniture-care_text {
+  margin-left: 0px;
+}
+.container .furniture-care .furniture-care_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-left: 200px;
+}
+.container .furniture-care .furniture-care_block .furniture-care_block_elem {
+  margin-bottom: 42px;
+}
+
+.container {
+  margin: 0 auto;
+  align-items: center;
+}
+.container .reference-information p.reference-information_text {
+  margin-left: 271px;
+}
+.container .reference-information p {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.container .vacancies .vacancies_block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 190px;
+}
+.container .vacancies .vacancies_block .vacancies_block_elem {
+  margin-bottom: 42px;
+  width: 650px;
+  height: 287px;
+}
+.container .vacancies .vacancies_block .vacancies_block_elem img {
+  width: 300px;
+  height: 132px;
+  margin-left: 16px;
+}
+.container .vacancies .vacancies_block .vacancies_block_elem ul {
+  padding-left: 30px;
+}
+
+.container .contact iframe {
+  width: 500px;
+  height: 263px;
+  margin-left: 25px;
+}
+.container .contact .contact_block {
+  height: 263px;
+  margin-left: 26px;
+}
+
+.footer {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 86px;
+}
+.footer .footer_text {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 35px;
+}
+
+/*ГЛАВНАЯ 2*/
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    width: 710px;
+    display: flex;
+    align-items: center;
+  }
+  .container .main-menu {
+    margin-top: 16px;
+    margin-left: 0px;
+  }
+  .container .main-menu ul {
+    display: flex;
+    margin-left: 30px;
+  }
+  .container .main-menu__nav-item {
+    list-style-type: none;
+    padding-right: 50px;
+  }
+  .container .main-menu__nav-item a {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .header .header__logo {
+    width: 74.12px;
+    height: 68px;
+    margin-right: 30px;
+  }
+  .header .header__logo .header__logo_img {
+    margin-left: 41px;
+  }
+  .header .header__calls {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .header .header__calls li {
+    padding-left: 5px;
+  }
+  .header .header__location .header_location_ul {
+    padding: 2px;
+    margin-right: 70px;
+  }
+  .header .header__contact {
+    margin: 0;
+  }
+  .header .header__contact ul.header_contact_ul {
+    margin: 0;
+    padding: 0;
+  }
+  .header .header_list {
+    margin-left: 0;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 710px;
+    display: flex;
+    align-items: center;
+  }
+  .container .services {
+    margin-left: -55px;
+  }
+  .container .services .services_block {
+    margin-left: 0;
+  }
+  .container .services .services_block .services_block_elem {
+    margin-left: 70px;
+    margin-left: 0;
+  }
+  .container .order_adress input {
+    width: 509px;
+    height: 32px;
+    margin-top: 25px;
+    margin-left: 104px;
+  }
+  .container .custom-made-furniture {
+    margin-top: 59px;
+    margin-left: 107px;
+    margin-bottom: 100px;
+    font-size: 24px;
+    display: flex;
+  }
+  .container .custom-made-furniture .custom-made-furniture_one {
+    color: #F05310;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 125px;
+    width: 350px;
+  }
+  .container .custom-made-furniture p.custom-made-furniture_two {
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  .container .custom-made-furniture p.custom-made-furniture_three {
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgb(71, 71, 71);
+  }
+  .container .custom-made-furniture .custom-made-furniture__square {
+    background-color: #F05310;
+    color: #fff;
+    width: 110px;
+    height: 110px;
+    border-radius: 80px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .container .custom-made-furniture .custom-made-furniture__square p {
+    font-size: 24px;
+    margin: 0;
+    padding-top: 25px;
+  }
+  .container .custom-made-furniture .custom-made-furniture__square span {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .container .custom-made-furniture .custom-made-furniture__advantages {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 82px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container .reference-information {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container .reference-information p {
+    font-size: 16px;
+  }
+  .container .reference-information p.reference-information_text {
+    margin-left: 100px;
+  }
+  .container {
+    margin: 0 auto;
+    align-items: center;
+  }
+  .container section.furniture-care p.furniture-care_text {
+    margin-left: 0px;
+  }
+  .container section.furniture-care .furniture-care_block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 0px;
+  }
+  .container section.furniture-care .furniture-care_block .furniture-care_block_elem {
+    margin-left: 50px;
+    margin-bottom: 42px;
+  }
+  .container .vacancies .vacancies_block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+  }
+  .container .vacancies .vacancies_block .vacancies_block_elem {
+    margin-bottom: 42px;
+    width: 540px;
+    height: 287px;
+  }
+  .container .vacancies .vacancies_block .vacancies_block_elem img {
+    width: 235px;
+    height: 132px;
+  }
+  .container .contact {
+    margin: 0;
+  }
+  .container .contact iframe {
+    width: 350px;
+    height: 300px;
+    margin-left: 0px;
+  }
+  .container .contact .contact_block {
+    width: 300px;
+    height: 263px;
+    margin-left: 26px;
+  }
+  .container .contact .contact_block p {
+    font-size: 16px;
+  }
+  .footer {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 86px;
+  }
+  .footer .footer_text {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .footer_text .footer_text_section h1 {
+    padding-left: 30px;
+  }
+}/*# sourceMappingURL=style1.css.map */
