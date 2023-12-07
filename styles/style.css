@@ -59,6 +59,7 @@ body {
   width: 44px;
   height: 42px;
   padding-top: 13px;
+  display: flex;
 }
 .header .header-wrapper .header__contact {
   display: flex;
@@ -375,7 +376,7 @@ body {
   flex-direction: column;
 }
 .footer .footer-wrapper .footer_text .footer_text_section h1 {
-  /* padding-left: 100px; */
+  padding-left: 100px;
 }
 .footer .footer-wrapper .footer_text .footer_text_section ul {
   margin-top: 71px;
