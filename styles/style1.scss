@@ -919,7 +919,8 @@
                 p {
                     font-size: 12px;
                 }
-                p.contact_block_text{
+
+                p.contact_block_text {
                     font-size: 16px;
                     margin-bottom: 5px;
                 }
@@ -963,6 +964,388 @@
                 .footer_contact {
                     padding-left: 30px;
                     width: 130px;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ГЛАВНАЯ 4*/
+@media (max-width:320px) {
+
+    .container {
+        margin: 0 auto;
+        width: 300px;
+        display: flex;
+        align-items: center;
+
+        .main-menu {
+            display: none;
+        }
+
+        .services {
+
+
+            margin-left: 3px;
+
+            .services_block {
+
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+
+
+                .services_block_elem {
+
+                    margin-bottom: 25px;
+
+                }
+
+            }
+        }
+    }
+
+
+    .header {
+        .header-wrapper {
+            margin: 0;
+
+            .header__calls {
+                display: none;
+            }
+
+            .header__logo {
+                width: 74.12px;
+                height: 68px;
+                margin-right: 60px;
+                margin-left: 0px;
+            }
+
+            .burger-menu {
+                display: flex;
+                margin-left: 100px;
+            }
+
+            .header .header__logo .header__logo_img {
+                margin-left: 9px;
+            }
+
+            .header .header-wrapper .header__calls {
+                display: none;
+
+            }
+
+
+
+            .header__location {
+                display: none;
+            }
+
+
+            .header .header-wrapper .header__contact {
+                display: none;
+            }
+
+            ul.header_contact_ul {
+                display: none;
+            }
+        }
+    }
+
+    .container {
+
+
+        .custom-made-furniture {
+            width: 300px;
+            margin-top: 59px;
+            margin-left: 20px;
+            font-size: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+
+
+
+            .custom-made-furniture_one {
+                color: #F05310;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p.custom-made-furniture_two {
+                color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p.custom-made-furniture_three {
+                color: #000;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .custom-made-furniture__square {
+                display: none;
+
+            }
+
+            .custom-made-furniture__advantages {
+                color: #000;
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+
+            }
+        }
+    }
+
+
+    .container {
+        .partners {
+            .partners_block {
+                p.partners_text {
+                    color: #000;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                p {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+
+                li.partners_block_one {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    .container {
+        .reference-information {
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+
+            p {
+                color: #000;
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+            }
+
+            p.reference-information_text {
+                color: #000;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-left: 50px;
+            }
+        }
+    }
+
+    .container {
+        margin: 0 auto;
+        align-items: center;
+
+        section.furniture-care {
+            width: 300px;
+
+            p.furniture-care_text {
+                color: #000;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+
+            }
+
+            .furniture-care_block {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                margin-left: 00px;
+
+                .furniture-care_block_elem {
+                    margin-left: 22px;
+                    margin-bottom: 23px;
+                }
+            }
+        }
+
+    }
+
+    .container {
+        .vacancies {
+            width: 300px;
+
+            p.vacancies_text {
+                color: #000;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .vacancies_block {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 9px;
+
+                .vacancies_block_elem {
+
+                    margin-bottom: 40px;
+                    width: 300px;
+                    height: 442px;
+
+                    p {
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    li {
+                        margin-left: 15px;
+                    }
+
+                    img {
+                        width: 280px;
+                        height: 157.277px;
+                        padding-left: 9px;
+                        margin-left: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .container {
+        .contact {
+            width: 300px;
+            margin: 0;
+
+            p.contact_text {
+                color: #000;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            iframe {
+                width: 200px;
+                height: 199px;
+                margin-left: 50px;
+                margin-bottom: 17px;
+
+            }
+
+            .contact_block {
+                width: 200px;
+                height: 199px;
+                margin-right: 40px;
+                display: block;
+
+                p {
+                    font-size: 11px;
+                }
+
+                p.contact_block_text {
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+            }
+
+        }
+    }
+
+    .footer {
+        height: 200px;
+        margin-top: 86px;
+
+        .footer-wrapper {
+            margin: 0 auto;
+            width: 300px;
+
+            align-items: center;
+
+            gap: 35px;
+
+            .footer_text {
+                text-align: left;
+                display: block;
+                margin-left: 30px;
+
+                .footer_text_section {
+                    display: none;
+
+                    h1 {
+                        display: none;
+                    }
+
+                    .footer_text_section_one {
+                        display: none;
+                    }
+                }
+
+                .footer_contact {
+                    margin-top: 30px;
+
                 }
             }
         }
