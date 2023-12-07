@@ -357,13 +357,14 @@
         align-items: center;
 
         .services {
+            
             margin-left: -55px;
 
             .services_block {
                 margin-left: 0;
 
                 .services_block_elem {
-                    margin-left: 70px;
+                    margin-right: 60px;
                     margin-left: 0;
 
                 }
@@ -372,7 +373,6 @@
         }
 
     }
-
     .container {
         .order_adress input {
             width: 509px;
@@ -387,7 +387,7 @@
         .custom-made-furniture {
             
             margin-top: 59px;
-            margin-left: 30px;
+            margin-left: 20px;
             font-size: 24px;
           
                 
@@ -436,7 +436,7 @@
             .custom-made-furniture__advantages {
                 font-weight: 700;
                 font-size: 14px;
-                margin-left: 82px;
+                margin-left: 45px;
                 margin-top: 10px;
                 
             }
@@ -453,6 +453,8 @@
 
             p {
                 font-size: 16px;
+                margin-left: 20px;
+                text-align: left;
 
             }
 
