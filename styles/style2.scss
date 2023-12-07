@@ -123,7 +123,7 @@
     }
 
     .footer {
-        width: 1024px;
+
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -177,7 +177,7 @@
     }
 
     .header {
-        width: 768px;
+
 
         .header__logo {
             width: 74.12px;
@@ -286,6 +286,7 @@
         width: 710px;
         display: flex;
         align-items: center;
+
         .order {
             h1 {
                 color: #000;
@@ -299,51 +300,61 @@
             }
 
             .order_adress input {
-                width: 509px;
+                width: 400px;
                 height: 32px;
                 margin-top: 25px;
                 margin-left: 110px;
             }
 
             .order_FIO input {
-                width: 509px;
+                width: 400px;
                 height: 32px;
                 margin-left: 120px;
             }
 
             .order_number input {
-                width: 509px;
+                width: 400px;
                 height: 32px;
                 margin-left: 75px;
             }
 
             .order_product input {
-                width: 509px;
+                width: 400px;
                 height: 32px;
                 margin-left: 90px;
             }
 
-            .order_send button {
-                margin-left: 0px;
+            .order_pay {
+                .order_pay_two {
+                    img {
+                        margin-left: 50px;
+                    }
+
+                }
             }
 
+            section.order {
+                .order_send button {
 
-        }
-
+                    margin-left: 523px;
+                }
+            }
+        
     }
 
-    .footer {
-        width: 768px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        margin-top: 86px;
+}
 
-        .footer_text {
-            text-align: left;
-            display: grid;
-            grid-template-columns: 1.5fr 1fr 1fr;
-            gap: 35px;
-        }
+.footer {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 86px;
+
+    .footer_text {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 35px;
     }
+}
 }

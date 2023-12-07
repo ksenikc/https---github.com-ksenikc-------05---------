@@ -88,7 +88,6 @@
     margin-left: 700px;
   }
   .footer {
-    width: 1024px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -128,9 +127,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-  }
-  .header {
-    width: 768px;
   }
   .header .header__logo {
     width: 74.12px;
@@ -219,31 +215,33 @@
     margin-left: 0px;
   }
   .container .order .order_adress input {
-    width: 509px;
+    width: 400px;
     height: 32px;
     margin-top: 25px;
     margin-left: 110px;
   }
   .container .order .order_FIO input {
-    width: 509px;
+    width: 400px;
     height: 32px;
     margin-left: 120px;
   }
   .container .order .order_number input {
-    width: 509px;
+    width: 400px;
     height: 32px;
     margin-left: 75px;
   }
   .container .order .order_product input {
-    width: 509px;
+    width: 400px;
     height: 32px;
     margin-left: 90px;
   }
-  .container .order .order_send button {
-    margin-left: 0px;
+  .container .order .order_pay .order_pay_two img {
+    margin-left: 50px;
+  }
+  .container .order section.order .order_send button {
+    margin-left: 523px;
   }
   .footer {
-    width: 768px;
     margin: 0 auto;
     display: flex;
     align-items: center;

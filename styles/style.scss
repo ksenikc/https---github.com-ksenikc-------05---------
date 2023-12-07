@@ -3,13 +3,15 @@ body {
     font-family: Inter;
     margin: 0 auto;
     padding: 0;
-    
+
 }
+
 .container {
-   box-sizing: border-box;
+    box-sizing: border-box;
     width: 1280px;
 
 }
+
 .header {
     background-color: #F1F1F1;
     height: 77px;
@@ -69,7 +71,7 @@ body {
 
         .header__contact {
             display: flex;
-           
+
         }
     }
 }
@@ -289,29 +291,32 @@ body {
 
         .furniture-care_block {
             display: flex;
-            margin-left: 50px;
+            margin-left: 30px;
+        }
 
-            .furniture-care_block_elem {
-                width: 243px;
-                height: 80px;
-                border-radius: 10px;
-                border: 1px solid #000;
-                background: #FFF;
-                margin-right: 50px;
-                color: #000;
+        .furniture-care_block_elem {
+            width: 243px;
+            height: 80px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            background: #FFF;
+            margin-right: 50px;
+            color: #000;
+            font-size: 14px;
+            font-weight: 400;
+
+            span.furniture-care_block_elem--orange {
+                color: #F05310;
+                font-family: Inter;
                 font-size: 14px;
-                font-weight: 400;
-
-                span.furniture-care_block_elem--orange {
-                    color: #F05310;
-                    font-family: Inter;
-                    font-size: 14px;
-                    font-weight: 700;
-                }
+                font-weight: 700;
+                margin: 0;
+                padding: 0;
             }
         }
     }
 }
+
 
 .container {
     margin: 0 auto;
