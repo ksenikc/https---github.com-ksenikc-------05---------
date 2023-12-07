@@ -55,6 +55,7 @@
 
     .header {
         display: flex;
+
         .header .header-wrapper .header__calls {
             display: flex;
             padding-left: 54px;
@@ -346,20 +347,30 @@
 
             .header .header-wrapper .header__calls {
                 display: flex;
-                padding-left: 15px;
-                padding-right: 4px;
+                padding-left: 40px;
+                padding-right: 7px;
             }
 
 
         }
 
-        .header_list {
-            margin-left: 0;
-        }
+
 
         .header__location {
             display: none;
-            
+
+            img.header__location_img {
+                display: none;
+
+                ul.header_location_ul {
+                    display: none;
+
+                    li.header_list {
+                        display: none;
+                    }
+                }
+            }
+
         }
 
 
@@ -377,20 +388,38 @@
     }
 
     .footer {
-
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        margin-top: 86px;
-
-        .footer_text {
-            text-align: left;
-            display: grid;
-            grid-template-columns: 1.5fr 1fr 1fr;
+            height: 150px;
+             margin-top: 86px;
+        .footer-wrapper {
+            margin: 0 auto;
+            width: 460px;
+        
+            align-items: center;
+           
             gap: 35px;
-            .footer_text_section h1 {
-                 padding-left: 0px; 
+
+            .footer_text {
+                text-align: left;
+
+                .footer_text_section {
+                    display: none;
+                    h1 {
+                        display: none;
+                    }
+                    .footer_text_section_one {
+                        display: none;
+                    }
+                }
+                .footer_pay {
+                    margin-top: 0;
+                    margin-left: 30px;
+                }
+                .footer_contact {
+                    padding-left: 30px;
+                    width: 150px;
+                }
             }
         }
+
     }
 }
