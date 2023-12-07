@@ -246,6 +246,9 @@
     margin-right: 60px;
     margin-left: 0px;
   }
+  .header .header-wrapper .header .header-wrapper .header__calls li {
+    font-size: 11px;
+  }
   .header .header-wrapper .header .header-wrapper .header__calls .header .header__logo .header__logo_img {
     margin-left: 9px;
   }

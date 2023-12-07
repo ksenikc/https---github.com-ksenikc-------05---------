@@ -271,4 +271,397 @@
     float: left;
     padding: 0;
   }
+}
+/*3 АДАПТИВ*/
+@media (max-width: 480px) {
+  .header {
+    height: 77px;
+    width: 480px;
+  }
+  .header .header-wrapper {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 460px;
+  }
+  .header .header-wrapper li {
+    font-size: 11px;
+  }
+  .header .header-wrapper .header .header-wrapper .header__calls {
+    display: flex;
+    padding-left: 54px;
+    padding-right: 70px;
+  }
+  .header .header-wrapper .header .header-wrapper .header__calls .header__logo {
+    width: 74.12px;
+    height: 68px;
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+  .header .header-wrapper .header .header-wrapper .header__calls .header .header__logo .header__logo_img {
+    margin-left: 9px;
+  }
+  .header .header-wrapper .header .header-wrapper .header__calls .header .header-wrapper .header__calls {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .header .header-wrapper .header__location {
+    display: none;
+  }
+  .header .header-wrapper .header .header-wrapper .header__contact {
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+  .header .header-wrapper ul.header_contact_ul {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    margin: 0 auto;
+    width: 460px;
+    display: flex;
+    align-items: center;
+  }
+  .container .main-menu {
+    display: none;
+  }
+  .container .services {
+    margin-left: 3px;
+  }
+  .container .services .services_block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .container .services .services_block .services_block_elem {
+    margin-bottom: 25px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 460px;
+    display: flex;
+    align-items: center;
+  }
+  .container section.terms-of-delivery {
+    width: 460px;
+  }
+  .container section.terms-of-delivery h1 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+  }
+  .container section.terms-of-delivery ul {
+    padding-left: 10px;
+  }
+  .container section.terms-of-delivery li.terms-of-delivery_text {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .container {
+    margin: 0 auto;
+    width: 460px;
+    display: flex;
+    align-items: center;
+  }
+  .container .order {
+    width: 460px;
+  }
+  .container .order h1 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+  }
+  .container .order h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15px;
+  }
+  .container .order .order_date input {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .container .order .order_adress input {
+    width: 261px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .container .order .order_FIO input {
+    width: 261px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+  .container .order .order_number input {
+    width: 261px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .container .order .order_product input {
+    width: 261px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 33px;
+  }
+  .container .order .order_pay p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .container .order .order_pay img {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .container .order .order_pay_two img {
+    margin-left: 53px;
+  }
+  .container section.order .order_send button {
+    margin-left: 100px;
+    padding: 0;
+  }
+  .footer {
+    height: 150px;
+    margin-top: 86px;
+  }
+  .footer .footer-wrapper {
+    margin: 0 auto;
+    width: 460px;
+    align-items: center;
+  }
+  .footer .footer-wrapper .footer_text {
+    text-align: left;
+  }
+  .footer .footer-wrapper .footer_text .footer_text_section {
+    display: none;
+  }
+  .footer .footer-wrapper .footer_text .footer_text_section h1 {
+    display: none;
+  }
+  .footer .footer-wrapper .footer_text .footer_text_section .footer_text_section_one {
+    display: none;
+  }
+  .footer .footer-wrapper .footer_text .footer_pay {
+    margin-top: 0;
+    margin-left: 30px;
+  }
+  .footer .footer-wrapper .footer_text .footer_contact {
+    padding-left: 30px;
+    width: 130px;
+  }
+}
+/*КАТАЛОГ 4*/
+@media (max-width: 320px) {
+  .container {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+  .container .main-menu {
+    display: none;
+  }
+  .container .services {
+    margin-left: 3px;
+  }
+  .container .services .services_block {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .container .services .services_block .services_block_elem {
+    margin-bottom: 25px;
+  }
+  .header .header-wrapper {
+    margin: 0;
+  }
+  .header .header-wrapper .header__calls {
+    display: none;
+  }
+  .header .header-wrapper .header__logo {
+    width: 74.12px;
+    height: 68px;
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+  .header .header-wrapper .burger-menu {
+    display: flex;
+    margin-left: 100px;
+  }
+  .header .header-wrapper .header .header__logo .header__logo_img {
+    margin-left: 9px;
+  }
+  .header .header-wrapper .header .header-wrapper .header__calls {
+    display: none;
+  }
+  .header .header-wrapper .header__location {
+    display: none;
+  }
+  .header .header-wrapper .header .header-wrapper .header__contact {
+    display: none;
+  }
+  .header .header-wrapper ul.header_contact_ul {
+    display: none;
+  }
+  .container {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+  .container section.terms-of-delivery {
+    width: 300px;
+  }
+  .container section.terms-of-delivery h1 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+  }
+  .container section.terms-of-delivery ul {
+    padding-left: 10px;
+  }
+  .container section.terms-of-delivery li.terms-of-delivery_text {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .container {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container .order {
+    width: 300px;
+  }
+  .container .order h1 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+  }
+  .container .order h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15px;
+  }
+  .container .order .order_date input {
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 119px;
+  }
+  .container .order .order_adress input {
+    width: 160px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .container .order .order_FIO input {
+    width: 160px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+  .container .order .order_number input {
+    width: 160px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .container .order .order_product input {
+    width: 160px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 33px;
+  }
+  .container .order .order_pay p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+  }
+  .container .order .order_pay img {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .container .order .order_pay_two img {
+    margin-left: 10px;
+  }
+  .container .order .order_pay_two p {
+    margin-left: 10px;
+  }
+  .container section.order .order_send button {
+    margin-right: 20px;
+  }
+  .footer {
+    height: 200px;
+    margin-top: 86px;
+  }
+  .footer .footer-wrapper {
+    margin: 0 auto;
+    width: 300px;
+    align-items: center;
+    gap: 35px;
+  }
+  .footer .footer-wrapper .footer_text {
+    text-align: left;
+    display: block;
+    margin-left: 30px;
+  }
+  .footer .footer-wrapper .footer_text .footer_text_section {
+    display: none;
+  }
+  .footer .footer-wrapper .footer_text .footer_text_section h1 {
+    display: none;
+  }
+  .footer .footer-wrapper .footer_text .footer_text_section .footer_text_section_one {
+    display: none;
+  }
+  .footer .footer-wrapper .footer_text .footer_contact {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=style2.css.map */
