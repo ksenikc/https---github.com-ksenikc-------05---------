@@ -276,7 +276,6 @@
 @media (max-width: 480px) {
   .header {
     height: 77px;
-    width: 480px;
   }
   .header .header-wrapper {
     display: flex;
