@@ -239,7 +239,11 @@
             }
         }
     }
-
+    .container {
+        .footer_pay {
+            display: flex;
+        }
+    }
     .footer {
 
         margin: 0 auto;
@@ -381,7 +385,7 @@
     }
 
     .container {
-        width: 768px;
+        width: 760px;
 
         .custom-made-furniture {
 
@@ -414,7 +418,7 @@
             .custom-made-furniture__square {
                 background-color: #F05310;
                 color: #fff;
-                width: 150px;
+                width: 140px;
                 height: 110px;
                 border-radius: 1000px;
                 margin-left: 10px;
@@ -435,7 +439,7 @@
             .custom-made-furniture__advantages {
                 font-weight: 700;
                 font-size: 14px;
-                margin-left: 45px;
+                margin-left: 20px;
                 margin-top: 10px;
 
             }
@@ -1127,34 +1131,36 @@
 
     .container {
         .partners {
-            .partners_block {
-                p.partners_text {
-                    color: #000;
-                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    font-family: Inter;
-                    font-size: 13px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: normal;
-                }
+            .partners_blocks {
+                .partners_block {
+                    p.partners_text {
+                        color: #000;
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        font-family: Inter;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
 
-                p {
-                    color: #000;
-                    font-family: Inter;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: normal;
-                }
+                    p {
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
 
 
-                li.partners_block_one {
-                    color: #000;
-                    font-family: Inter;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
+                    li {
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
                 }
             }
         }

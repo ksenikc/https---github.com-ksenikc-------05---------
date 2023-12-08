@@ -16,9 +16,6 @@
     list-style-type: none;
     padding-right: 90px;
   }
-  .header {
-    width: 1024px;
-  }
   .header .header .header-wrapper .header__calls {
     display: flex;
     padding-left: 54px;
@@ -83,6 +80,9 @@
     font-weight: 700;
     line-height: normal;
     margin-left: 0px;
+  }
+  .container section.order .order_pay {
+    display: flex;
   }
   .container section.order .order_send button {
     margin-left: 700px;
@@ -614,6 +614,10 @@
     margin-top: 10px;
     margin-left: 33px;
   }
+  .container .order .order_pay {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .container .order .order_pay p {
     color: #000;
     font-family: Inter;
@@ -627,10 +631,16 @@
     margin-left: 50px;
     margin-top: 20px;
   }
-  .container .order .order_pay_two img {
+  .container .order .order_pay .order_pay_one {
+    justify-content: center;
+  }
+  .container .order .order_pay .order_pay_two {
+    justify-content: center;
+  }
+  .container .order .order_pay .order_pay_two img {
     margin-left: 10px;
   }
-  .container .order .order_pay_two p {
+  .container .order .order_pay .order_pay_two p {
     margin-left: 10px;
   }
   .container section.order .order_send button {

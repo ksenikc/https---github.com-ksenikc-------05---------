@@ -21,7 +21,7 @@
     }
 
     .header {
-        width: 1024px;
+        
 
         .header .header-wrapper .header__calls {
             display: flex;
@@ -114,7 +114,9 @@
                 line-height: normal;
                 margin-left: 0px;
             }
-
+            .order_pay {
+                display: flex;
+            }
             .order_send button {
                 margin-left: 700px;
             }
@@ -870,6 +872,9 @@
             }
 
             .order_pay {
+                display: flex;
+                flex-wrap: wrap;
+                
                 p {
                     color: #000;
                     font-family: Inter;
@@ -882,7 +887,7 @@
                     
 
                 }
-
+                
                 img {
 
                     margin-left: 50px;
@@ -890,10 +895,12 @@
 
                 }
 
-            }
-
+            
+                .order_pay_one {
+                    justify-content: center;
+                }
             .order_pay_two {
-                
+                justify-content: center;
                 img {
                     
                     margin-left: 10px;
@@ -903,6 +910,7 @@
                 }
 
             }
+        }
         }
 
         section.order {

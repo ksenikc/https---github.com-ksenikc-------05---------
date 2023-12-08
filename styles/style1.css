@@ -161,6 +161,9 @@
     height: 263px;
     margin-left: 26px;
   }
+  .container .footer_pay {
+    display: flex;
+  }
   .footer {
     margin: 0 auto;
     display: flex;
@@ -256,7 +259,7 @@
     margin-left: 104px;
   }
   .container {
-    width: 768px;
+    width: 760px;
   }
   .container .custom-made-furniture {
     margin-top: 59px;
@@ -281,7 +284,7 @@
   .container .custom-made-furniture .custom-made-furniture__square {
     background-color: #F05310;
     color: #fff;
-    width: 150px;
+    width: 140px;
     height: 110px;
     border-radius: 1000px;
     margin-left: 10px;
@@ -299,7 +302,7 @@
   .container .custom-made-furniture .custom-made-furniture__advantages {
     font-weight: 700;
     font-size: 14px;
-    margin-left: 45px;
+    margin-left: 20px;
     margin-top: 10px;
   }
   .container .reference-information {
@@ -776,7 +779,7 @@
     font-weight: 700;
     line-height: normal;
   }
-  .container .partners .partners_block p.partners_text {
+  .container .partners .partners_blocks .partners_block p.partners_text {
     color: #000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inter;
@@ -785,7 +788,7 @@
     font-weight: 700;
     line-height: normal;
   }
-  .container .partners .partners_block p {
+  .container .partners .partners_blocks .partners_block p {
     color: #000;
     font-family: Inter;
     font-size: 24px;
@@ -793,7 +796,7 @@
     font-weight: 700;
     line-height: normal;
   }
-  .container .partners .partners_block li.partners_block_one {
+  .container .partners .partners_blocks .partners_block li {
     color: #000;
     font-family: Inter;
     font-size: 18px;
